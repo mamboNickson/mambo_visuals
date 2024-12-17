@@ -16,8 +16,8 @@ sections:
     title: 'I am a photographer based in Debrecen Hungary '
     subtitle: >-
       This is my portfolio which will show you the work I’ve carried out in the
-      past. That I can build a relationship with my customers and through this
-      relationship trust can be formed 
+      past. That way I can build a relationship with my customers and through
+      this relationship trust can be formed 
     styles:
       self:
         height: auto
