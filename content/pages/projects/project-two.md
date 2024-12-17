@@ -15,6 +15,6 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/logo3.svg
+  url: /images/DSC07638.jpeg
   altText: Project image
 ---
