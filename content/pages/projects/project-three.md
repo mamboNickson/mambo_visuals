@@ -5,9 +5,8 @@ colors: colors-a
 date: '2022-01-22'
 client: ''
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  I see potraits as a way to express the true state of a persons soul. Just one
+  simple potrait can tell a thousand stories
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
