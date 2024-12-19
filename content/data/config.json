@@ -27,7 +27,7 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
+                "altText": "instagram",
                 "label": "instagram",
                 "url": "https://twitter.com/netlify",
                 "icon": "twitter"
