@@ -21,11 +21,6 @@ bottomSections:
     subtitle: This is the subtitle
     images:
       - type: ImageBlock
-        url: /images/gallery-2.jpg
-        altText: Image two
-        caption: Image two caption
-        elementId: ''
-      - type: ImageBlock
         url: /images/gallery-3.jpg
         altText: Image three
         caption: Image three caption
