@@ -9,7 +9,7 @@ description: >-
   simple potrait can tell a thousand stories
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/DSC03889.JPG
   altText: Project thumbnail image
 media:
   type: ImageBlock
