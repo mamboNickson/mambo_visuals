@@ -15,7 +15,7 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/DSC03681.JPG
+  url: /images/DSC04880.JPG
   altText: Project image
 bottomSections:
   - type: MediaGallerySection
