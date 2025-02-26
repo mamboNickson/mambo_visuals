@@ -4,7 +4,7 @@ title: Projects
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: '/images/BDIY4361[1].PNG'
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
