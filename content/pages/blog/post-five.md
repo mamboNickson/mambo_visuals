@@ -120,7 +120,7 @@ media:
 author: content/data/team/nick.json
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: '/images/BDIY4361[1].PNG'
   backgroundSize: auto
   backgroundPosition: center
   backgroundRepeat: no-repeat
