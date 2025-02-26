@@ -3,7 +3,7 @@ type: PostLayout
 title: My work
 colors: colors-a
 date: '2024-05-02'
-excerpt: More context that may or may not be helpful
+excerpt: ''
 featuredImage:
   type: ImageBlock
   url: /images/DSC05425.JPG
