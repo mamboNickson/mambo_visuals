@@ -116,7 +116,7 @@ bottomSections:
         elementId: ''
       - type: ImageBlock
         url: /images/DSC04671.JPG
-        altText: 16x9
+        altText: '16:9'
         caption: Caption of the image
         elementId: ''
     colors: colors-c
