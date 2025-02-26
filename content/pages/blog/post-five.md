@@ -43,7 +43,7 @@ bottomSections:
     showReadMoreLink: true
   - type: MediaGallerySection
     title: Gallery
-    subtitle: This is the subtitle
+    subtitle: ''
     images:
       - type: ImageBlock
         url: /images/DSC03799.JPG
