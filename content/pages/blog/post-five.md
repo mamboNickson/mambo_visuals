@@ -6,7 +6,7 @@ date: '2024-05-02'
 excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image5.jpg
+  url: /images/DSC02099.JPG
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
