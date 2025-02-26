@@ -2,7 +2,7 @@
 type: PostLayout
 title: My work
 colors: colors-a
-date: '2024-05-02'
+date: ''
 excerpt: ''
 featuredImage:
   type: ImageBlock
