@@ -139,7 +139,7 @@ bottomSections:
     columns: 2
     aspectRatio: auto
     showCaption: false
-    enableHover: false
+    enableHover: true
     elementId: ''
     styles:
       self:
