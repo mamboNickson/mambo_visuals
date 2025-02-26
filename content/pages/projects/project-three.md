@@ -35,10 +35,16 @@ bottomSections:
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
+      - type: ImageBlock
+        url: >-
+          https://assets.stackbit.com/components/images/default/default-image.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
     colors: colors-f
-    spacing: 16
-    columns: 4
-    aspectRatio: '4:3'
+    spacing: 10
+    columns: 2
+    aspectRatio: auto
     showCaption: false
     enableHover: true
     elementId: ''
