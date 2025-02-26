@@ -43,7 +43,7 @@ bottomSections:
     showReadMoreLink: true
   - type: ContactSection
     backgroundSize: full
-    title: Stay up-to-date with my words ✍️
+    title: Stay up-to-date with my work
     colors: colors-f
     form:
       type: FormBlock
