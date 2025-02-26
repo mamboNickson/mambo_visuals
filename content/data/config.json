@@ -67,12 +67,6 @@
                 "label": "Contact",
                 "url": "nicksonmambo02@gmail.com",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
             }
         ],
         "contacts": {
