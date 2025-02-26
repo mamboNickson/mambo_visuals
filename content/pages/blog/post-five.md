@@ -117,7 +117,7 @@ bottomSections:
       - type: ImageBlock
         url: >-
           https://assets.stackbit.com/components/images/default/default-image.png
-        altText: altText of the image
+        altText: 16x9
         caption: Caption of the image
         elementId: ''
     colors: colors-c
