@@ -35,11 +35,6 @@ bottomSections:
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
-      - type: ImageBlock
-        url: /images/DSC02099.JPG
-        altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
     colors: colors-f
     spacing: 10
     columns: 2
