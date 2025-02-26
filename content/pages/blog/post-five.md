@@ -118,4 +118,11 @@ media:
   caption: Caption of the image
   elementId: ''
 author: content/data/team/nick.json
+backgroundImage:
+  type: BackgroundImage
+  url: '/images/BDIY4361[1].PNG'
+  backgroundSize: auto
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 68
 ---
