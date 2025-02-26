@@ -134,7 +134,7 @@ bottomSections:
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
-    colors: colors-c
+    colors: colors-a
     spacing: 16
     columns: 2
     aspectRatio: auto
