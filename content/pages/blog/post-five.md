@@ -117,4 +117,5 @@ media:
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
+author: content/data/team/nick.json
 ---
