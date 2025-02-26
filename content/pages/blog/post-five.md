@@ -138,7 +138,7 @@ bottomSections:
     spacing: 16
     columns: 2
     aspectRatio: auto
-    showCaption: true
+    showCaption: false
     enableHover: false
     elementId: ''
     styles:
