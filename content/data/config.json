@@ -50,7 +50,8 @@
                 "type": "Link",
                 "label": "instagram page",
                 "url": "https://www.instagram.com/mambo_visuals/",
-                "altText": ""
+                "altText": "",
+                "showIcon": true
             },
             {
                 "type": "Link",
