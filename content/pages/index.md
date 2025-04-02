@@ -116,10 +116,15 @@ sections:
         justifyContent: flex-start
   - type: CtaSection
     title: EVENT PHOTOGRAPHY
-    text: |
+    text: >
       EXAMPLE ( graduation, birthday dinner, anniversary dinner etc)
 
+
       **52 EUROS OR FORINT EQUIVALENT**
+
+
+      In this package you get 30 high quality edited photos plus you can also
+      request for extra pictures at a discounted price of 1.6 euros per picture 
     actions:
       - type: Button
         label: Try it now
