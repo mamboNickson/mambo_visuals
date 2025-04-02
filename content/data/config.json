@@ -50,13 +50,16 @@
                 "type": "Link",
                 "label": "instagram page",
                 "url": "https://www.instagram.com/mambo_visuals/",
-                "altText": ""
+                "altText": "",
+                "showIcon": true,
+                "icon": "instagram",
+                "iconPosition": "left"
             },
             {
                 "type": "Link",
                 "label": "Contact",
                 "url": "nicksonmambo03@gmail.com",
-                "altText": "",
+                "altText": "nicksonmambo03@gmail.com",
                 "showIcon": true,
                 "icon": "mail"
             }
