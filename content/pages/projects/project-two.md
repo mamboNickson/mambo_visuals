@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Street photography
 colors: colors-a
-date: ''
+date: '2025-04-02'
 client: ''
 description: >-
   Sometimes you have to go out into the streets to create art, create moments
