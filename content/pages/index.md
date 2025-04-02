@@ -150,10 +150,7 @@ sections:
     variant: variant-d
     subtitle: ''
     showFeaturedImage: false
-    actions:
-      - type: Link
-        label: See all posts
-        url: /blog
+    actions: []
     posts: []
     showDate: true
     showExcerpt: true
