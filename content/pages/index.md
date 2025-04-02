@@ -86,9 +86,11 @@ sections:
     title: 'Portfolio '
   - type: CtaSection
     title: Pricing
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: |+
+      Normal portrait photography per hour - 38 EUROS or Forint equivalent 
+
+
+
     actions:
       - type: Button
         label: Try it now
