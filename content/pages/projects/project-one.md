@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Videography
 colors: colors-a
-date: '2021-10-15'
+date: ''
 client: ''
 description: sometimes the best way to tell a story is by filming it
 featuredImage:
