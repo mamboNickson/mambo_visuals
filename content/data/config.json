@@ -62,7 +62,7 @@
                 "label": "Contact",
                 "url": "nicksonmambo03@gmail.com",
                 "altText": "",
-                "showIcon": false
+                "showIcon": true
             }
         ],
         "contacts": {
