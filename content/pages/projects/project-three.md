@@ -47,7 +47,7 @@ bottomSections:
         elementId: ''
     colors: colors-f
     spacing: 10
-    columns: 2
+    columns: 7
     aspectRatio: auto
     showCaption: false
     enableHover: true
