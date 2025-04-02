@@ -92,16 +92,7 @@ sections:
 
 
       In this package you get a collection of 25 high quality edited photos
-    actions:
-      - type: Button
-        label: Try it now
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     colors: colors-a
     backgroundSize: full
     elementId: ''
