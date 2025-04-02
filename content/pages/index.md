@@ -125,16 +125,7 @@ sections:
 
       In this package you get 30 high quality edited photos plus you can also
       request for extra pictures at a discounted price of 1.6 euros per picture 
-    actions:
-      - type: Button
-        label: Try it now
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     colors: colors-a
     backgroundSize: inset
     elementId: ''
