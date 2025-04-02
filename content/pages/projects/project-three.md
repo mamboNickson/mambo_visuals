@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Portraits
 colors: colors-a
-date: '2022-01-22'
+date: ''
 client: ''
 description: >-
   I see potraits as a way to express the true state of a persons soul. Just one
@@ -47,7 +47,7 @@ bottomSections:
         elementId: ''
     colors: colors-f
     spacing: 10
-    columns: 2
+    columns: 1
     aspectRatio: auto
     showCaption: false
     enableHover: true
