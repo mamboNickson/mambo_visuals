@@ -14,7 +14,7 @@ media:
 bottomSections:
   - type: MediaGallerySection
     title: Gallery
-    subtitle: ''
+    subtitle: capture the moment
     images:
       - type: ImageBlock
         url: /images/DSC03799.JPG
