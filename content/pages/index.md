@@ -91,7 +91,7 @@ sections:
       In this package you get a collection of 25 high quality edited photos
     actions: []
     colors: colors-a
-    backgroundSize: inset
+    backgroundSize: full
     elementId: ''
     styles:
       self:
