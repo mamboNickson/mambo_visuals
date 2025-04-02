@@ -124,7 +124,7 @@ sections:
       request for extra pictures at a discounted price of 1.6 euros per picture 
     actions: []
     colors: colors-a
-    backgroundSize: inset
+    backgroundSize: full
     elementId: ''
     styles:
       self:
@@ -144,43 +144,4 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: FeaturedPostsSection
-    elementId: ''
-    colors: colors-f
-    variant: variant-d
-    subtitle: ''
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: See all posts
-        url: /blog
-    posts: []
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
 ---
