@@ -14,7 +14,7 @@ media:
 bottomSections:
   - type: MediaGallerySection
     title: Gallery
-    subtitle: ''
+    subtitle: capture the moment
     images:
       - type: ImageBlock
         url: /images/DSC03799.JPG
@@ -44,6 +44,11 @@ bottomSections:
       - type: ImageBlock
         url: /images/DSC04814.JPG
         altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/DSC07638.jpeg
+        altText: ''
         caption: Caption of the image
         elementId: ''
     colors: colors-f
