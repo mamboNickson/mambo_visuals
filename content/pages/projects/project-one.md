@@ -13,7 +13,8 @@ bottomSections: []
 media:
   type: VideoBlock
   title: Title of the video
-  url: 'https://www.instagram.com/stories/highlights/17968905416751935/'
+  url: >-
+    https://www.instagram.com/reel/DGbNtcZoY8i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
   elementId: ''
   autoplay: true
   loop: true
