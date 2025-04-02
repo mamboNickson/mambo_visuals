@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Portraits
 colors: colors-a
-date: '2022-01-22'
+date: ''
 client: ''
 description: >-
   I see potraits as a way to express the true state of a persons soul. Just one
