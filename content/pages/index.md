@@ -116,9 +116,10 @@ sections:
         justifyContent: flex-start
   - type: CtaSection
     title: EVENT PHOTOGRAPHY
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: |
+      EXAMPLE ( graduation, birthday dinner, anniversary dinner etc)
+
+      **52 EUROS OR FORINT EQUIVALENT**
     actions:
       - type: Button
         label: Try it now
