@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Street photography
 colors: colors-a
-date: ''
+date: '2025-04-02'
 client: ''
 description: >-
   Sometimes you have to go out into the streets to create art, create moments
@@ -74,15 +74,7 @@ bottomSections:
         textAlign: center
   - type: RecentProjectsSection
     subtitle: Projects
-    actions:
-      - type: Link
-        label: See all projects
-        altText: See all projects
-        url: /projects
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        elementId: ''
+    actions: []
     colors: colors-f
     variant: variant-c
     elementId: ''
