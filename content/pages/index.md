@@ -124,7 +124,7 @@ sections:
       request for extra pictures at a discounted price of 1.6 euros per picture 
     actions: []
     colors: colors-a
-    backgroundSize: inset
+    backgroundSize: full
     elementId: ''
     styles:
       self:
