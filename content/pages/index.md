@@ -87,7 +87,7 @@ sections:
   - type: CtaSection
     title: Pricing
     text: >+
-      ##### **Normal portrait photography** **per hou**r - 38 EUROS or Forint
+      ##### ***Normal portrait photography** **per hour*** - 38 EUROS or Forint
       equivalent
 
     actions:
