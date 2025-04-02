@@ -136,7 +136,7 @@ sections:
         style: primary
         elementId: ''
     colors: colors-a
-    backgroundSize: full
+    backgroundSize: inset
     elementId: ''
     styles:
       self:
