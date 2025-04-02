@@ -85,7 +85,7 @@ sections:
     subtitle: Projects
     title: 'Portfolio '
   - type: CtaSection
-    title: Let's do this
+    title: Pricing
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
