@@ -84,6 +84,69 @@ sections:
         justifyContent: flex-end
     subtitle: Projects
     title: 'Portfolio '
+  - type: CtaSection
+    title: Pricing
+    text: >
+      ##### **Normal portrait photography** **per hour** - 38 EUROS or Forint
+      equivalent
+
+
+      In this package you get a collection of 25 high quality edited photos
+    actions: []
+    colors: colors-a
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: CtaSection
+    title: EVENT PHOTOGRAPHY
+    text: >
+      EXAMPLE ( graduation, birthday dinner, anniversary dinner etc)
+
+
+      **52 EUROS OR FORINT EQUIVALENT**
+
+
+      In this package you get 30 high quality edited photos plus you can also
+      request for extra pictures at a discounted price of 1.6 euros per picture 
+    actions: []
+    colors: colors-a
+    backgroundSize: inset
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f

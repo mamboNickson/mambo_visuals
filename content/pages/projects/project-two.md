@@ -2,17 +2,11 @@
 type: ProjectLayout
 title: Street photography
 colors: colors-a
-date: '2021-12-20'
-client: Awesome client
+date: ''
+client: ''
 description: >-
   Sometimes you have to go out into the streets to create art, create moments
   because you can end up finding cool shots like these
-featuredImage:
-  type: ImageBlock
-  url: /images/DSC07638.jpeg
-  altText: ''
-  caption: Caption of the image
-  elementId: ''
 media:
   type: ImageBlock
   url: /images/DSC04880.JPG
@@ -20,7 +14,7 @@ media:
 bottomSections:
   - type: MediaGallerySection
     title: Gallery
-    subtitle: This is the subtitle
+    subtitle: ''
     images:
       - type: ImageBlock
         url: /images/DSC03799.JPG
@@ -73,4 +67,45 @@ bottomSections:
         textAlign: center
       subtitle:
         textAlign: center
+  - type: RecentProjectsSection
+    subtitle: Projects
+    actions:
+      - type: Link
+        label: See all projects
+        altText: See all projects
+        url: /projects
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    colors: colors-f
+    variant: variant-c
+    elementId: ''
+    recentCount: 6
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
+featuredImage:
+  type: ImageBlock
+  url: /images/DSC05425.JPG
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
