@@ -9,8 +9,4 @@ featuredImage:
   type: ImageBlock
   url: /images/DSC06057.JPG
   altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
 ---
