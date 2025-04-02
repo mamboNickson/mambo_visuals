@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Portraits
 colors: colors-a
-date: ''
+date: '2025-04-02'
 client: ''
 description: >-
   I see potraits as a way to express the true state of a persons soul. Just one
@@ -18,7 +18,7 @@ media:
 bottomSections:
   - type: MediaGallerySection
     title: Gallery
-    subtitle: This is the subtitle
+    subtitle: ''
     images:
       - type: ImageBlock
         url: /images/DSC01813.JPG
