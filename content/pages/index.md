@@ -86,10 +86,12 @@ sections:
     title: 'Portfolio '
   - type: CtaSection
     title: Pricing
-    text: >+
+    text: >
       ##### ***Normal portrait photography** **per hour*** - 38 EUROS or Forint
-      equivalent
+      equivalent 
 
+
+      In this package you get a collection of 25 high quality edited photos 
     actions:
       - type: Button
         label: Try it now
