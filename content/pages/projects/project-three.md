@@ -67,4 +67,3 @@ bottomSections:
       subtitle:
         textAlign: center
 ---
-L
