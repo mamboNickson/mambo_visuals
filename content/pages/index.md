@@ -12,7 +12,7 @@ backgroundImage:
 sections:
   - elementId: ''
     colors: colors-f
-    backgroundSize: inset
+    backgroundSize: full
     title: I am a  photographer based in Debrecen Hungary
     subtitle: >-
       This is my portfolio which will show you the work I’ve carried out in the
