@@ -81,7 +81,7 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: ''
-    title: 'Portfolio '
+    title: PROJECTS
   - type: CtaSection
     title: Pricing
     text: >
