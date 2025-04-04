@@ -7,10 +7,6 @@ client: ''
 description: >-
   I see potraits as a way to express the true state of a persons soul. Just one
   simple potrait can tell a thousand stories
-featuredImage:
-  type: ImageBlock
-  url: /images/DSC03889.JPG
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/DSC03681.JPG
@@ -66,4 +62,12 @@ bottomSections:
         textAlign: center
       subtitle:
         textAlign: center
+backgroundImage:
+  type: BackgroundImage
+  url: '/images/BDIY4361[1].PNG'
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 100
+socialImage: /images/DSC03889.JPG
 ---

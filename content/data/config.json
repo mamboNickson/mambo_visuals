@@ -24,10 +24,10 @@
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
+                "altText": "Youtube",
+                "label": "Youtube",
+                "url": "https://www.youtube.com/@KINGMAMBO1",
+                "icon": "youtube"
             }
         ],
         "styles": {

@@ -14,21 +14,11 @@ media:
 bottomSections:
   - type: MediaGallerySection
     title: Gallery
-    subtitle: capture the moment
+    subtitle: Enjoy!!!
     images:
       - type: ImageBlock
-        url: /images/DSC03799.JPG
-        altText: ''
-        caption: Caption of the image
-        elementId: ''
-      - type: ImageBlock
-        url: /images/DSC05425.JPG
-        altText: ''
-        caption: Caption of the image
-        elementId: ''
-      - type: ImageBlock
-        url: /images/DSC06057.JPG
-        altText: ''
+        url: /images/DSC07638.jpeg
+        altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
@@ -37,31 +27,38 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC05342.JPG
+        url: /images/DSC03799.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC04814.JPG
+        url: /images/DSC05425.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC07638.jpeg
-        altText: ''
+        url: >-
+          https://assets.stackbit.com/components/images/default/default-image.png
+        altText: altText of the image
         caption: Caption of the image
         elementId: ''
-    colors: colors-f
+      - type: ImageBlock
+        url: >-
+          https://assets.stackbit.com/components/images/default/default-image.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+    colors: colors-a
     spacing: 16
-    columns: 4
-    aspectRatio: ''
+    columns: 1
+    aspectRatio: auto
     showCaption: false
-    enableHover: true
+    enableHover: false
     elementId: ''
     styles:
       self:
         height: auto
-        width: full
+        width: narrow
         padding:
           - pt-12
           - pb-12
@@ -105,4 +102,11 @@ featuredImage:
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
+backgroundImage:
+  type: BackgroundImage
+  url: '/images/BDIY4361[1].PNG'
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: repeat
+  opacity: 100
 ---
