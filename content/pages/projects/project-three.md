@@ -32,12 +32,12 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/IMG_7059.JPG
+        url: /images/DSC03681.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC03681.JPG
+        url: /images/IMG_7059.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
