@@ -17,7 +17,47 @@ bottomSections:
     subtitle: ''
     images:
       - type: ImageBlock
-        url: /images/DSC01813.JPG
+        url: /images/IMG_8305.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9621.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8299.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8303.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/DSC03889.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8678.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/DSC03681.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_7059.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9208.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
@@ -32,12 +72,37 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC03681.JPG
+        url: /images/DSC01813.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: /images/DSC03889.JPG
+        url: /images/IMG_9348.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9354.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8791.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8741.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8656.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8663.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''

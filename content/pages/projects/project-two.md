@@ -37,14 +37,67 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: >-
-          https://assets.stackbit.com/components/images/default/default-image.png
+        url: /images/IMG_7966.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
-        url: >-
-          https://assets.stackbit.com/components/images/default/default-image.png
+        url: /images/IMG_8943.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8837.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8946.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9390.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_7550.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_7689.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_7690.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9479.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9545.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8832.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_8942.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
+        url: /images/IMG_9412.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
