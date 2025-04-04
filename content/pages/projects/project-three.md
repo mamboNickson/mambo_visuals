@@ -27,6 +27,11 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
+        url: /images/IMG_8678.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
         url: /images/DSC02099.JPG
         altText: altText of the image
         caption: Caption of the image
@@ -53,11 +58,6 @@ bottomSections:
         elementId: ''
       - type: ImageBlock
         url: /images/IMG_9208.JPG
-        altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
-      - type: ImageBlock
-        url: /images/IMG_8678.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
