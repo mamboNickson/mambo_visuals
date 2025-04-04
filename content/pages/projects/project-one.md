@@ -26,6 +26,6 @@ backgroundImage:
   url: '/images/BDIY4361[1].PNG'
   backgroundSize: cover
   backgroundPosition: center
-  backgroundRepeat: repeat
+  backgroundRepeat: repeat-y
   opacity: 100
 ---
