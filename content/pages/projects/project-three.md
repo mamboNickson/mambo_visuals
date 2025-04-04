@@ -22,6 +22,11 @@ bottomSections:
         caption: Caption of the image
         elementId: ''
       - type: ImageBlock
+        url: /images/IMG_9621.JPG
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+      - type: ImageBlock
         url: /images/DSC03889.JPG
         altText: altText of the image
         caption: Caption of the image
@@ -68,11 +73,6 @@ bottomSections:
         elementId: ''
       - type: ImageBlock
         url: /images/IMG_8303.JPG
-        altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
-      - type: ImageBlock
-        url: /images/IMG_9621.JPG
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
