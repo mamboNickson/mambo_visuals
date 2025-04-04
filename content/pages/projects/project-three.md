@@ -62,4 +62,11 @@ bottomSections:
         textAlign: center
       subtitle:
         textAlign: center
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: auto
+  backgroundPosition: center
+  backgroundRepeat: repeat
+  opacity: 100
 ---
