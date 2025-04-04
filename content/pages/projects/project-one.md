@@ -27,5 +27,5 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: repeat
-  opacity: 0
+  opacity: 100
 ---
