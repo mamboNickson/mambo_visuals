@@ -65,8 +65,8 @@ bottomSections:
 backgroundImage:
   type: BackgroundImage
   url: /images/bg2.jpg
-  backgroundSize: auto
+  backgroundSize: cover
   backgroundPosition: center
-  backgroundRepeat: repeat
+  backgroundRepeat: no-repeat
   opacity: 100
 ---
