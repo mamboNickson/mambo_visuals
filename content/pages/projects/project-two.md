@@ -15,12 +15,7 @@ bottomSections:
   - type: MediaGallerySection
     title: Gallery
     subtitle: Enjoy!!!
-    images:
-      - type: ImageBlock
-        url: /images/gallery-4.jpg
-        altText: Image four
-        caption: Image four caption
-        elementId: ''
+    images: []
     colors: colors-a
     spacing: 16
     columns: 1
