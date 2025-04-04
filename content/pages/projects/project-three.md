@@ -135,4 +135,10 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 socialImage: /images/DSC03889.JPG
+featuredImage:
+  type: ImageBlock
+  url: /images/IMG_9621.JPG
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
