@@ -28,16 +28,17 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
-          - pb-48
+          - pt-28
+          - pb-36
           - pl-4
           - pr-4
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
       title:
-        textAlign: center
+        textAlign: right
         fontWeight: 400
+        fontStyle: italic
       subtitle:
         textAlign: left
       text:
@@ -69,7 +70,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-24
+          - pt-7
           - pb-24
           - pl-4
           - pr-4
@@ -100,7 +101,7 @@ sections:
         width: narrow
         padding:
           - pt-28
-          - pb-28
+          - pb-9
           - pl-4
           - pr-4
         alignItems: center
@@ -132,8 +133,8 @@ sections:
         height: auto
         width: narrow
         padding:
-          - pt-28
-          - pb-28
+          - pt-9
+          - pb-16
           - pl-4
           - pr-4
         alignItems: center
