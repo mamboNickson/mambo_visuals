@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: I AM a photographer based in Debrecen Hungary
+    title: I am a  photographer based in Debrecen Hungary
     subtitle: >-
       This is my portfolio which will show you the work I’ve carried out in the
       past. That way I can build a relationship with my customers and through
@@ -80,8 +80,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Projects
-    title: 'Portfolio '
+    subtitle: ''
+    title: PROJECTS
   - type: CtaSection
     title: Pricing
     text: >
