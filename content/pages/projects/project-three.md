@@ -69,4 +69,5 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 100
+socialImage: /images/DSC03889.JPG
 ---
