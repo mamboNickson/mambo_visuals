@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: a photographer based in Debrecen Hungary
+    title: I AM a photographer based in Debrecen Hungary
     subtitle: >-
       This is my portfolio which will show you the work I’ve carried out in the
       past. That way I can build a relationship with my customers and through
@@ -36,7 +36,8 @@ sections:
         justifyContent: center
         flexDirection: row-reverse
       title:
-        textAlign: right
+        textAlign: center
+        fontWeight: 400
       subtitle:
         textAlign: left
       text:
