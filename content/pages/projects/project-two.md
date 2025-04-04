@@ -104,7 +104,7 @@ featuredImage:
   elementId: ''
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: '/images/BDIY4361[1].PNG'
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: repeat
