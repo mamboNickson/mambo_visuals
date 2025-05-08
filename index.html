@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mambovisuals | Luxury Photography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1f8438',
+                        secondary: '#d0a933',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            min-height: 70vh;
+        }
+        
+        .upload-box {
+            border: 2px dashed #d0a933;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-box:hover {
+            background-color: rgba(208, 169, 51, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .gallery-item {
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        
+        @media (max-width: 768px) {
+            .hero-bg {
+                min-height: 50vh;
+            }
+        }
+    </style>
+</head>
+<body class="font-sans bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-primary">MAMBO</span>
+                    <span class="text-2xl font-light text-secondary">VISUALS</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-800 hover:text-primary transition">Home</a>
+                    <a href="#portfolio" class="text-gray-800 hover:text-primary transition">Portfolio</a>
+                    <a href="#services" class="text-gray-800 hover:text-primary transition">Services</a>
+                    <a href="#contact" class="text-gray-800 hover:text-primary transition">Contact</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <a href="#home" class="block py-2 text-gray-800 hover:text-primary transition">Home</a>
+                <a href="#portfolio" class="block py-2 text-gray-800 hover:text-primary transition">Portfolio</a>
+                <a href="#services" class="block py-2 text-gray-800 hover:text-primary transition">Services</a>
+                <a href="#contact" class="block py-2 text-gray-800 hover:text-primary transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg flex items-center justify-center pt-20">
+        <div class="text-center px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">CAPTURING LIFE'S <span class="text-secondary">LUXURIOUS</span> MOMENTS</h1>
+            <p class="text-xl text-white mb-8 max-w-2xl mx-auto">Elevating your visual storytelling with premium photography and videography services</p>
+            <a href="#contact" class="bg-primary hover:bg-green-700 text-white px-8 py-3 rounded-full font-medium transition duration-300">Book a Session</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">ABOUT <span class="text-primary">MAMBO</span><span class="text-secondary">VISUALS</span></h2>
+                    <p class="text-gray-600 mb-6">Founded on the principles of excellence and artistry, Mambovisuals brings a fresh perspective to luxury photography. Our team of dedicated professionals combines technical expertise with creative vision to deliver stunning visual narratives.</p>
+                    <p class="text-gray-600 mb-6">We specialize in capturing the essence of your story through carefully crafted images and videos that stand the test of time.</p>
+                    <div class="flex space-x-4">
+                        <div class="bg-primary text-white px-6 py-2 rounded-full font-medium">15+ Years</div>
+                        <div class="bg-secondary text-white px-6 py-2 rounded-full font-medium">500+ Clients</div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1554080351-a76e4c4e89e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Photographer working" class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">OUR <span class="text-primary">PORTFOLIO</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Portrait photography" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                        <span class="text-white text-xl font-medium">PORTRAITS</span>
+                    </div>
+                </div>
+                <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1507591064344-4c6cec09df23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Street photography" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                        <span class="text-white text-xl font-medium">STREET</span>
+                    </div>
+                </div>
+                <div class="gallery-item relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80" alt="Videography" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+                        <span class="text-white text-xl font-medium">VIDEOGRAPHY</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full font-medium transition duration-300">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">OUR <span class="text-secondary">SERVICES</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Portrait Photography</h3>
+                    <p class="text-gray-600 mb-4">Capturing the essence of individuals with our signature style that blends natural beauty with artistic flair.</p>
+                    <ul class="text-gray-600 mb-6">
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Professional studio setup</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Outdoor locations</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> High-end retouching</li>
+                    </ul>
+                    <a href="#" class="text-primary font-medium hover:underline">Learn more →</a>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Street Photography</h3>
+                    <p class="text-gray-600 mb-4">Documenting urban life with a keen eye for composition and the decisive moment.</p>
+                    <ul class="text-gray-600 mb-6">
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Candid moments</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Architectural elements</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Urban landscapes</li>
+                    </ul>
+                    <a href="#" class="text-primary font-medium hover:underline">Learn more →</a>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Videography</h3>
+                    <p class="text-gray-600 mb-4">Cinematic storytelling that brings your vision to life with motion and sound.</p>
+                    <ul class="text-gray-600 mb-6">
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> 4K resolution</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Professional editing</li>
+                        <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Color grading</li>
+                    </ul>
+                    <a href="#" class="text-primary font-medium hover:underline">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">UPLOAD YOUR <span class="text-primary">CONTENT</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="upload-box p-8 rounded-lg text-center cursor-pointer">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-portrait"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Portrait Photography</h3>
+                    <p class="text-gray-600 mb-6">Upload your portrait shots for professional review and editing.</p>
+                    <input type="file" id="portrait-upload" class="hidden" accept="image/*">
+                    <label for="portrait-upload" class="inline-block bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-full font-medium transition duration-300 cursor-pointer">Select Files</label>
+                </div>
+                
+                <div class="upload-box p-8 rounded-lg text-center cursor-pointer">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-street-view"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Street Photography</h3>
+                    <p class="text-gray-600 mb-6">Share your urban captures for potential feature in our gallery.</p>
+                    <input type="file" id="street-upload" class="hidden" accept="image/*">
+                    <label for="street-upload" class="inline-block bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-full font-medium transition duration-300 cursor-pointer">Select Files</label>
+                </div>
+                
+                <div class="upload-box p-8 rounded-lg text-center cursor-pointer">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Videography</h3>
+                    <p class="text-gray-600 mb-6">Submit your video projects for professional critique.</p>
+                    <input type="file" id="video-upload" class="hidden" accept="video/*">
+                    <label for="video-upload" class="inline-block bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-full font-medium transition duration-300 cursor-pointer">Select Files</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-16">CLIENT <span class="text-secondary">TESTIMONIALS</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-secondary text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Mambovisuals captured our wedding with such elegance and attention to detail. The photos are absolutely breathtaking!"</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah J." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sarah J.</h4>
+                            <p class="text-gray-600">Wedding Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-secondary text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"The street photography workshop transformed how I see and capture urban environments. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Michael T.</h4>
+                            <p class="text-gray-600">Workshop Attendee</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-secondary text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Our brand video exceeded all expectations. Mambovisuals understood our vision perfectly and delivered cinematic quality."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lisa M." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Lisa M.</h4>
+                            <p class="text-gray-600">Corporate Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-primary text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">GET IN <span class="text-secondary">TOUCH</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-6">CONTACT INFORMATION</h3>
+                    <div class="mb-6 flex items-start">
+                        <div class="text-secondary text-xl mr-4 mt-1">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-1">Studio Address</h4>
+                            <p>123 Visual Lane, Creative District<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="mb-6 flex items-start">
+                        <div class="text-secondary text-xl mr-4 mt-1">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-1">Email Us</h4>
+                            <p>hello@mambovisuals.com<br>bookings@mambovisuals.com</p>
+                        </div>
+                    </div>
+                    <div class="mb-6 flex items-start">
+                        <div class="text-secondary text-xl mr-4 mt-1">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-1">Call Us</h4>
+                            <p>+1 (555) 123-4567<br>Mon-Fri, 9am-6pm EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-8">
+                        <a href="#" class="bg-secondary hover:bg-yellow-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="bg-secondary hover:bg-yellow-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="bg-secondary hover:bg-yellow-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="bg-secondary hover:bg-yellow-600 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-6">SEND US A MESSAGE</h3>
+                    <form>
+                        <div class="mb-6">
+                            <input type="text" placeholder="Your Name" class="w-full bg-primary border-b border-secondary focus:border-white text-white placeholder-gray-300 py-3 focus:outline-none transition duration-300">
+                        </div>
+                        <div class="mb-6">
+                            <input type="email" placeholder="Your Email" class="w-full bg-primary border-b border-secondary focus:border-white text-white placeholder-gray-300 py-3 focus:outline-none transition duration-300">
+                        </div>
+                        <div class="mb-6">
+                            <input type="text" placeholder="Subject" class="w-full bg-primary border-b border-secondary focus:border-white text-white placeholder-gray-300 py-3 focus:outline-none transition duration-300">
+                        </div>
+                        <div class="mb-6">
+                            <textarea placeholder="Your Message" rows="4" class="w-full bg-primary border-b border-secondary focus:border-white text-white placeholder-gray-300 py-3 focus:outline-none transition duration-300"></textarea>
+                        </div>
+                        <button type="submit" class="bg-secondary hover:bg-yellow-600 text-white px-8 py-3 rounded-full font-medium transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-6">MAMBO<span class="text-secondary">VISUALS</span></h3>
+                    <p class="text-gray-400">Elevating visual storytelling through premium photography and videography services since 2010.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition">Portfolio</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Portrait Photography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Street Photography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Videography</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Workshops</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-6">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Your Email" class="bg-gray-800 text-white px-4 py-2 rounded-l focus:outline-none w-full">
+                        <button class="bg-secondary hover:bg-yellow-600 text-white px-4 py-2 rounded-r transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Mambovisuals. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+        
+        // File upload display
+        const uploadInputs = ['portrait-upload', 'street-upload', 'video-upload'];
+        
+        uploadInputs.forEach(id => {
+            const input = document.getElementById(id);
+            const label = input.nextElementSibling;
+            
+            input.addEventListener('change', () => {
+                if (input.files.length > 0) {
+                    label.textContent = `${input.files.length} file(s) selected`;
+                    label.classList.add('bg-secondary');
+                    label.classList.remove('bg-primary');
+                } else {
+                    label.textContent = 'Select Files';
+                    label.classList.add('bg-primary');
+                    label.classList.remove('bg-secondary');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
